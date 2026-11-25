@@ -1,0 +1,182 @@
+/*
+styles
+
+1.  The body will have a width of 600px and be centred by 
+    setting the margin to 0 auto.
+2.  The body will have a font-family of Lucida sans, and a 
+    colour of #00376c.
+3.  Anchors will have a colour of #00376c.
+4.  Level 3 headings will have a color of #1577ff.
+5.  Paragraphs in the .services section and footer will both 
+    have the font-style set to italic.
+6.  All anchors will have text-decoration set to none, and a 
+    hover state that sets the text-decoration to underline.
+7.  Level 2 headings will have a solid 2px border-bottom in the
+    colour #7b7b7b, and they will have text-align set to center.
+8.  Level 3 headings will have a solid 2px border-bottom in the
+    colour #1577ff and will have a display property of inline.
+
+Layout
+1.  The header will have a solid 6 px border-bottom in the 
+    colour #7b7b7b and will have a line-height of 80px.
+2.  The header and footer will have text-align set to center, 
+    a background-colour of #c7e3ff and a margin-bottom of 40px.
+3.  The footer will have a padding of 10px.
+4.  The .story, .services and .locations sections will have 
+    10px padding at the top and bottom, and 15px on the left 
+    and right. They will have a margin-bottom of 40px and a 
+    background-colour of #e7e7e7.
+5.  The image will have a width of 150px.
+*/
+
+body {
+  /*
+    1.  The body will have a width of 600px and be centred by 
+        setting the margin to 0 auto.
+    2.  The body will have a font-family of Lucida sans, and a 
+        colour of #00376c.
+    */
+  width: 600px;
+  margin: 0 auto;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #00376c;
+}
+
+a {
+  /*
+    1.  Anchors will have a colour of #00376c.
+    2.  All anchors will have text-decoration set to none, and 
+        a hover state that sets the text-decoration to 
+        underline.
+    */
+  color: #00376c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  /*
+    1.  Level 3 headings will have a color of #1577ff.
+    2.  Level 3 headings will have a solid 2px border-bottom 
+        in the colour #1577ff and will have a display property 
+        of inline.
+    */
+  color: #1577ff;
+  border-bottom: solid #1577ff;
+  display: inline;
+}
+
+.services p {
+  /*
+    1.  Paragraphs in the .services section and footer will 
+        both have the font-style set to italic.
+    */
+  font-style: italic;
+}
+
+h2 {
+  /*
+    1.  Level 2 headings will have a solid 2px border-bottom 
+        in the colour #7b7b7b, and they will have text-align 
+        set to center.
+    */
+  border-bottom: solid 2px #7b7b7b;
+  text-align: center;
+}
+
+header {
+  /*
+    1.  The header will have a solid 6 px border-bottom in the 
+    colour #7b7b7b and will have a line-height of 80px.
+    2.  The header and footer will have text-align set to center, 
+    a background-colour of #c7e3ff and a margin-bottom of 40px.
+    */
+  border-bottom: solid 6px #7b7b7b;
+  line-height: 80px;
+  text-align: center;
+  background-color: #c7e3ff;
+  margin-bottom: 40px;
+}
+
+footer {
+  /*
+    1.  Paragraphs in the .services section and footer will 
+        both have the font-style set to italic.
+    2.  The header and footer will have text-align set to center, 
+        a background-colour of #c7e3ff and a margin-bottom of 40px.
+    3.  The footer will have a padding of 10px.
+    */
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+  background-color: #c7e3ff;
+  margin-bottom: 40px;
+}
+.story {
+  /*
+    1.  The .story, .services and .locations sections will have 
+    10px padding at the top and bottom, and 15px on the left 
+    and right. They will have a margin-bottom of 40px and a 
+    background-colour of #e7e7e7.
+    */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 40px;
+  background-color: #e7e7e7;
+}
+
+.services {
+  /*
+    1.  The .story, .services and .locations sections will have 
+    10px padding at the top and bottom, and 15px on the left 
+    and right. They will have a margin-bottom of 40px and a 
+    background-colour of #e7e7e7.
+    */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 40px;
+  background-color: #e7e7e7;
+}
+
+.locations {
+  /*
+    1.  The .story, .services and .locations sections will have 
+    10px padding at the top and bottom, and 15px on the left 
+    and right. They will have a margin-bottom of 40px and a 
+    background-colour of #e7e7e7.
+    */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 40px;
+  background-color: #e7e7e7;
+}
+
+img {
+  /*
+    1.  The image will have a width of 150px.
+    */
+  width: 150px;
+}
+
+/*
+h1 {
+}
+main {
+}
+section {
+}
+
+em {
+}
+*/
